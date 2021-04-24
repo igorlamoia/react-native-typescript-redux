@@ -1,12 +1,19 @@
 /**
  * Welcome to the main entry point of the app.
  *
- * Most of this file is boilerplate and you shouldn't need to modify
+ * Most of this file is already set up and you shouldn't need to modify
  * it very often. But take some time to look through and understand
  * what is going on here.
  *
  * The app navigation resides in ./src/navigator, so head over there
  * if you're interested in adding screens and navigators.
+ *
+ * The fonts and color files resides in ./src/config.
+ *
+ * If you want to change the theme color head to ./src/theme
+ *
+ * To change the fonts used in this project head over to ./src/assets/fonts,
+ * there you can also insert images and svgs to you project.
  */
 
 import 'react-native-gesture-handler';
@@ -30,7 +37,7 @@ import {
   useNavigationPersistence,
 } from '~/navigator';
 import { theme } from '~/theme';
-import { store } from '~/Store';
+import { store } from '~/store';
 import * as storage from '~/utils/storage';
 
 enableScreens();
@@ -38,7 +45,7 @@ enableScreens();
 export const NAVIGATION_PERSISTENCE_KEY = 'NAVIGATION_STATE';
 
 /**
- * This is the root component of the app.
+ * Root component of the app.
  */
 const App = () => {
   const navigationRef = useRef<NavigationContainerRef>();

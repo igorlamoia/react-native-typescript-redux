@@ -4,7 +4,7 @@ import { Button, Text } from 'react-native';
 
 import { useDispatch } from 'react-redux';
 import { useAppSelector } from '~/hooks';
-import { increment, decrement } from '~/Store/features/counter';
+import { increment, decrement } from '~/store/features/counter';
 
 import { Container } from './ReduxDemo.styled';
 import { translate } from '~/i18n';

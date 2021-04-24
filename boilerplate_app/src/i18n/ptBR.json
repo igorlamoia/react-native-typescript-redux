@@ -1,0 +1,15 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancelar",
+    "back": "Voltar",
+    "next": "Próxima tela",
+    "increment": "Soma 1",
+    "decrement": "Subtrai 1"
+  },
+  "greetings": {
+    "Hello": "Olá mundo",
+    "DemoScreen": "Essa é uma tela de exemplo",
+    "ReduxExample": "Aperte o botão para mudar o estado atual do redux"
+  }
+}

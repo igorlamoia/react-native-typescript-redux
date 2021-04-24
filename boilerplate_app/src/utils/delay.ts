@@ -1,7 +1,7 @@
 /**
- * A "modern" sleep statement.
+ * A simple sleep statement.
  *
- * @param ms The number of milliseconds to wait.
+ * @param ms The number to wait in milliseconds.
  */
 export const delay = (ms: number) =>
   new Promise(resolve => setTimeout(resolve, ms));

@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import { Demo, Home, Counter } from '~/Screens';
+import { Demo, Home, Counter } from '~/screens';
 
 export type PrimaryParamList = {
   Home: undefined;

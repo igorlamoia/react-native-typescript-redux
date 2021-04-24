@@ -1,0 +1,15 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "back": "Go Back",
+    "next": "Next screen",
+    "increment": "Plus 1",
+    "decrement": "Minus 1"
+  },
+  "greetings": {
+    "Hello": "Hello World",
+    "DemoScreen": "This is a demo screen",
+    "ReduxExample": "Press the button to change the number"
+  }
+}

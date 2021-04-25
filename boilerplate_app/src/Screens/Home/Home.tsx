@@ -1,8 +1,10 @@
 import React from 'react';
-import { Button, Text } from 'react-native';
+import { Text } from 'react-native';
 import { observer } from 'mobx-react-lite';
 import { useNavigation } from '@react-navigation/native';
+import Icon from 'react-native-vector-icons/AntDesign';
 import { translate } from '~/i18n';
+import { Button } from '~/components';
 
 import { Container } from './Home.styled';
 
@@ -14,7 +16,12 @@ export const Home = observer(() => {
       <Text style={{ fontSize: 40, marginVertical: 30 }}>
         {translate('greetings.Hello')}
       </Text>
-      <Button title={translate('common.next')} onPress={nextScreen} />
+      <Button
+        mode="outlined"
+        onPress={nextScreen}
+        icon={() => <Icon name="star" size={20} color="#007bff" />}>
+        <Text>{translate('common.next')}</Text>
+      </Button>
     </Container>
   );
 });

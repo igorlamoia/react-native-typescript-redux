@@ -1,11 +1,11 @@
 export interface ReactotronConfig {
   /** The name of the app. */
   name?: string;
-  /** The host to connect to: default 'localhost'. */
+  /** The host to connect with: default 'localhost'. */
   host?: string;
-  /** Should we use async storage */
+  /** Clear Async storage? */
   useAsyncStorage?: boolean;
-  /** Should we clear Reactotron when load? */
+  /** Clear Reactotron on reload? */
   clearOnLoad?: boolean;
 }
 

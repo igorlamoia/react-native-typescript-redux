@@ -27,11 +27,13 @@ if (__DEV__) {
 
   const { reactotronRedux } = require('reactotron-redux');
 
-  ReactotronInstance = Reactotron.setAsyncStorageHandler(AsyncStorage) // AsyncStorage would either come from `react-native` or `@react-native-community/async-storage` depending on where you get it from
+  // You can use either `@react-native-async-storage/async-storage` or `@react-native-community/async-storage`
+  ReactotronInstance = Reactotron.setAsyncStorageHandler(AsyncStorage)
     // configure reactotron
     .configure({
       name: config.name || require('../../../package.json').name,
-    }) // controls connection & communication settings
+    })
+    // controls connection & communication settings
     .useReactNative({
       asyncStorage: config.useAsyncStorage ? undefined : false,
     })
@@ -39,7 +41,7 @@ if (__DEV__) {
     .use(reactotronRedux())
     .connect();
 } else {
-  // attach a mock so if things sneaky by our __DEV__ guards, we won't crash.
+  // attach a mock so if things go wrong with our __DEV__ guards, we won't crash.
   console.tron = {
     benchmark: nope,
     clear: nope,

@@ -21,74 +21,32 @@ $ cd react-native-typescript-redux-boilerplate
 ## Folder Structure
 
 ```text
-.
+boilerplate_app
 ├── src
 │    ├── assets
 │    │   ├── fonts
 │    │   ├── images
 │    │   └── svg
 │    ├── components
-│    │   ├── example_component_foldedr
-│    │   ├── example_component
-│    │   └── index.ts
+│    │   └── Button
 │    ├── config
-│    │   ├── colors.ts
-│    │   ├── fonts.ts
-│    │   └── index.ts
 │    ├── hooks
-│    │   ├── hooks.ts
-│    │   └── index.ts
 │    ├── i18n
-│    │   ├── en.json
-│    │   ├── ptBR.json
-│    │   ├── i18n.ts
-│    │   ├── translate.ts
-│    │   └── index.ts
 │    ├── navigator
-│    │   ├── mainNavigator.tsx
-│    │   ├── navigationUtils.tsx
-│    │   ├── RootNavigator.tsx
-│    │   └── RootStack.tsx
 │    ├── screens
 │    │   ├── Demo
-│    │   │   ├── Demo.styled.tsx
-│    │   │   └── Demo.tsx
 │    │   ├── Home
-│    │   │   ├── Home.styled.tsx
-│    │   │   └── Home.tsx
-│    │   ├── ReduxDemo
-│    │   │   ├── ReduxDemo.styled.tsx
-│    │   │   └── ReduxDemo.tsx
-│    │   └── index.ts
+│    │   └── ReduxDemo
 │    ├── services
-│    │   ├── reactotron
-│    │   │   ├── reactotron.ts
-│    │   │   ├── reactotronConfig.ts
-│    │   │   └── index.ts
-│    │   └── index.ts
+│    │   └── reactotron
 │    ├── store
 │    │   ├── features
 │    │   │   └── counter
-│    │   │       ├── Counter.action.ts
-│    │   │       ├── Counter.reducer.ts
-│    │   │       └── index.ts
-│    │   ├── rootStore
-│    │   │   ├── createStore.ts
-│    │   │   └── rootReducer.ts
-│    │   └── index.ts
+│    │   └── rootStore
 │    ├── theme
-│    │   └── index.ts
-│    ├── utils
-│    │   ├── storage
-│    │   │   ├── asyncStorage.ts
-│    │   │   ├── storage.ts
-│    │   │   └── index.ts
-│    │   ├── delay.ts
-│    │   └── ignoreWarnings.ts
-│    └── types.d.ts
-├── App.tsx
-├── README.md
-└── LICENSE
+│    └── utils
+│        └── storage
+└── App.tsx
 ```
 
 ## How to use

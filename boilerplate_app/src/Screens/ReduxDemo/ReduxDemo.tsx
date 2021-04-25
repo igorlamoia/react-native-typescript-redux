@@ -12,7 +12,7 @@ import { translate } from '~/i18n';
 export const Counter = observer(() => {
   // The ``state`` arg is correctly typed as `RootState` already
   const count = useAppSelector(state => state.counter);
-  const dispatch = useDispatch();
+  const dispatch = useDispatch<CounterDispatchType>();
   const [number, setNumber] = useState(count.value);
 
   const sum = () => {

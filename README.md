@@ -1,7 +1,7 @@
 # React Native TypeScript Boilerplate
 
-[![GitHub version](https://img.shields.io/badge/version-v0.1.0-blue.svg)](https://github.com/yilber/readme-boilerplate)
-[![License](https://img.shields.io/github/license/yilber/readme-boilerplate.svg)](https://github.com/Yilber/readme-boilerplate/blob/master/LICENSE)
+[![GitHub version](https://img.shields.io/badge/version-v0.1.0-blue.svg)](https://github.com/raulmax319/react-native-typescript-redux-boilerplate)
+[![License](https://img.shields.io/github/license/raulmax319/react-native-typescript-redux-boilerplate)](https://github.com/raulmax319/react-native-typescript-redux-boilerplate/blob/main/LICENSE)
 
 Boilerplate for creating React Native applications with typescript
 

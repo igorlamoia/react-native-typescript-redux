@@ -3,6 +3,7 @@ const INITIAL_STATE: CounterState = {
   value: 0,
 };
 
+// Exports the reducer switching between all actions
 export const counterReducer = (
   state: CounterState = INITIAL_STATE,
   action: CounterAction,

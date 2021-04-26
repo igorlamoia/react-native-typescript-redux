@@ -1,6 +1,6 @@
 import { FontTypes } from './fonts.types';
 
-export const fonts: FontTypes = {
+export const fontConfig: FontTypes = {
   web: {
     regular: {
       fontFamily: 'sans-serif',

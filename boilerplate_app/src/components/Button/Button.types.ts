@@ -73,7 +73,9 @@ export interface ButtonProps {
   onLongPress?: () => void;
 }
 
-export type StyleProps = {};
+export type StyleProps = {
+  mode: string;
+};
 
 export type ButtonStyle = {
   contentStyle: ViewStyle;

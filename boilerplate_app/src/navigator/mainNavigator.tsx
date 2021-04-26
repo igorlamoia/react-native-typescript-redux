@@ -3,7 +3,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import { Demo, Home, Counter } from '~/screens';
 
-export type PrimaryParamList = {
+type PrimaryParamList = {
   Home: undefined;
   Demo: undefined;
   Counter: undefined;

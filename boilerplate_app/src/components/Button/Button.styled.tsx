@@ -1,17 +1,20 @@
 import styled from 'styled-components/native';
 import { Button } from 'react-native-paper';
-import { colors, fonts } from '~/config';
+import { colors } from '~/config';
+import { useFont } from '~/utils/useFont';
 import { StyleProps, ButtonStyle } from './Button.types';
-
-const { bold } = fonts.android;
 
 export const MyButton = styled(Button).attrs(
   (props: StyleProps): ButtonStyle => ({
     contentStyle: {
-      padding: 2,
+      padding: 5,
+      borderColor: '#000',
+      borderWidth: props.mode === 'outlined' ? 1 : 0,
+      borderRadius: 50,
     },
     labelStyle: {
-      fontFamily: bold.fontFamily,
+      fontFamily: useFont('regular'),
+
       color: colors.textDark,
     },
   }),

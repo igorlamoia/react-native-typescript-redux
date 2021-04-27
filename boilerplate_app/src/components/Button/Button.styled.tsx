@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
 import { Button } from 'react-native-paper';
 import { colors } from '~/config';
-import { useFont } from '~/utils/useFont';
+import { font } from '~/helpers/font';
 import { StyleProps, ButtonStyle } from './Button.types';
 
 export const MyButton = styled(Button).attrs(
@@ -13,7 +13,7 @@ export const MyButton = styled(Button).attrs(
       borderRadius: 50,
     },
     labelStyle: {
-      fontFamily: useFont('regular'),
+      fontFamily: font('medium'),
 
       color: colors.textDark,
     },

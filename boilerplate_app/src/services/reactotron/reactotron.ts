@@ -4,7 +4,7 @@ import {
   ReactotronConfig,
   DEFAULT_REACTOTRON_CONFIG,
 } from './reactotronConfig';
-import { RootNavigation } from '~/navigator';
+import { RootNavigation } from '~/navigation';
 import { clear } from '~/utils/storage';
 
 declare global {

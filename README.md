@@ -46,6 +46,7 @@ $ cd react-native-typescript-redux-boilerplate
 │       │   └── rectotron
 │       ├── store
 │       │   ├── models
+│       │   ├──── counter
 │       │   └── root-store
 │       ├── theme
 │       └── utils

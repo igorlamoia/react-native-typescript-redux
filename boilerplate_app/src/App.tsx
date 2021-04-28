@@ -17,7 +17,7 @@
  */
 
 import 'react-native-gesture-handler';
-import '~/helpers/ignoreWarnings';
+import '~/helpers/ignore-warnings';
 import '~/i18n';
 import React, { useRef } from 'react';
 import { enableScreens } from 'react-native-screens';

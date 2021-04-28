@@ -1,3 +1,3 @@
-export * from './Home/Home';
-export * from './Demo/Demo';
-export * from './ReduxDemo/ReduxDemo';
+export * from './home/Home';
+export * from './demo/Demo';
+export * from './redux-demo/redux-demo';

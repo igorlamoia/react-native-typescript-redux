@@ -1,13 +1,13 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import { MainNavigator } from './mainNavigator';
+import { MainNavigator } from './main-navigator';
 
-export type RootParamList = {
+export type RootList = {
   mainStack: undefined;
 };
 
-const Stack = createStackNavigator<RootParamList>();
+const Stack = createStackNavigator<RootList>();
 
 export const RootStack = () => {
   return (

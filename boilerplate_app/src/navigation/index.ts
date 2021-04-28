@@ -1,4 +1,4 @@
 // export other navigators from here
-export * from './mainNavigator';
-export * from './navigationUtils';
-export * from './RootNavigator';
+export * from './main-navigator';
+export * from './navigation-utils';
+export * from './root-navigator';

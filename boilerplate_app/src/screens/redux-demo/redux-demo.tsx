@@ -4,9 +4,9 @@ import { Button, Text } from 'react-native';
 
 import { useDispatch } from 'react-redux';
 import { useAppSelector } from '~/hooks';
-import { increment, decrement } from '~/store/features/counter';
+import { increment, decrement } from '~/store/models/counter';
 
-import { Container } from './ReduxDemo.styled';
+import { Container } from './redux-demo.styled';
 import { translate } from '~/i18n';
 
 export const Counter = observer(() => {

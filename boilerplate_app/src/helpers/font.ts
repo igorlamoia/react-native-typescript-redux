@@ -23,7 +23,7 @@ type KeyPath = RecursiveKeyOf<Fonts>;
  *
  * Use this method to easily set your custom font
  */
-export const useFont = (font: KeyPath): FontFamily => {
+export const font = (font: KeyPath): FontFamily => {
   return Platform.OS === 'android'
     ? fontConfig.android[font].fontFamily
     : fontConfig.ios[font].fontFamily;

@@ -5,7 +5,7 @@ import {
   NavigationContainerRef,
 } from '@react-navigation/native';
 
-import { RootStack } from './RootStack';
+import { RootStack } from './root-stack';
 
 export const RootNavigator = React.forwardRef<
   NavigationContainerRef,

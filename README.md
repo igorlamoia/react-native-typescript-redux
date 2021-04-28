@@ -21,32 +21,39 @@ $ cd react-native-typescript-redux-boilerplate
 ## Folder Structure
 
 ```text
-boilerplate_app
-├── src
-│    ├── assets
-│    │   ├── fonts
-│    │   ├── images
-│    │   └── svg
-│    ├── components
-│    │   └── Button
-│    ├── config
-│    ├── hooks
-│    ├── i18n
-│    ├── navigator
-│    ├── screens
-│    │   ├── Demo
-│    │   ├── Home
-│    │   └── ReduxDemo
-│    ├── services
-│    │   └── reactotron
-│    ├── store
-│    │   ├── features
-│    │   │   └── counter
-│    │   └── rootStore
-│    ├── theme
-│    └── utils
-│        └── storage
-└── App.tsx
+.
+├── boilerplate_app
+│   ├── __tests__
+│   ├── android
+│   ├── ios
+│   └── src
+│       ├── @types
+│       ├── assets
+│       │   ├── fonts
+│       │   └── images
+│       ├── components
+│       │   └── Button
+│       ├── config
+│       ├── helpers
+│       ├── hooks
+│       ├── i18n
+│       ├── navigation
+│       ├── screens
+│       │   ├── demo
+│       │   ├── home
+│       │   └── redux-home
+│       ├── services
+│       │   └── rectotron
+│       ├── store
+│       │   ├── models
+│       │   └── root-store
+│       ├── theme
+│       └── utils
+│           ├── api
+│           └── storage
+├── CUSTOM_FONTS.md
+├── LICENSE
+└── README.md
 ```
 
 ## How to use

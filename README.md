@@ -41,7 +41,7 @@ $ cd react-native-typescript-redux-boilerplate
 │       ├── screens
 │       │   ├── demo
 │       │   ├── home
-│       │   └── redux-home
+│       │   └── redux-demo
 │       ├── services
 │       │   └── rectotron
 │       ├── store
@@ -51,9 +51,8 @@ $ cd react-native-typescript-redux-boilerplate
 │       └── utils
 │           ├── api
 │           └── storage
-├── CUSTOM_FONTS.md
 ├── LICENSE
-└── README.md
+└── README
 ```
 
 ## How to use

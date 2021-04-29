@@ -17,7 +17,7 @@
  */
 
 import 'react-native-gesture-handler';
-import '~/utils/ignoreWarnings';
+import '~/helpers/ignore-warnings';
 import '~/i18n';
 import React, { useRef } from 'react';
 import { enableScreens } from 'react-native-screens';
@@ -35,7 +35,7 @@ import {
   canExit,
   setRootNavigation,
   useNavigationPersistence,
-} from '~/navigator';
+} from '~/navigation';
 import { theme } from '~/theme';
 import { store } from '~/store';
 import * as storage from '~/utils/storage';

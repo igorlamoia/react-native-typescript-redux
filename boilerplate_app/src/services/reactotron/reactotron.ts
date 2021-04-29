@@ -3,8 +3,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import {
   ReactotronConfig,
   DEFAULT_REACTOTRON_CONFIG,
-} from './reactotronConfig';
-import { RootNavigation } from '~/navigator';
+} from './reactotron-config';
+import { RootNavigation } from '~/navigation';
 import { clear } from '~/utils/storage';
 
 declare global {

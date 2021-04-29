@@ -3,13 +3,13 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import { Demo, Home, Counter } from '~/screens';
 
-export type PrimaryParamList = {
+type StackList = {
   Home: undefined;
   Demo: undefined;
   Counter: undefined;
 };
 
-const Stack = createStackNavigator<PrimaryParamList>();
+const Stack = createStackNavigator<StackList>();
 
 export const MainNavigator = () => {
   return (

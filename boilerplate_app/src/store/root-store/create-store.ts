@@ -2,7 +2,7 @@ import { createStore, applyMiddleware, Store, compose } from 'redux';
 import thunk from 'redux-thunk';
 
 import { ReactotronInstance as Reactotron } from '~/services/reactotron';
-import rootReducer from './rootReducer';
+import rootReducer from './root-reducer';
 
 const enhancer = __DEV__
   ? compose(Reactotron.createEnhancer(), applyMiddleware(thunk))

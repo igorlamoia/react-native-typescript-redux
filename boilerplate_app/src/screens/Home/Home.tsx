@@ -5,6 +5,7 @@ import { useNavigation } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/AntDesign';
 import { translate } from '~/i18n';
 import { Button } from '~/components';
+const LottieView = require('lottie-react-native');
 
 import { Container } from './Home.styled';
 
@@ -13,6 +14,7 @@ export const Home = observer(() => {
   const nextScreen = () => navigation.navigate('Demo');
   return (
     <Container>
+      <LottieView style={{ height:200 }}source={require('../../assets/animations/sample-animation.json')} autoPlay loop />
       <Text style={{ fontSize: 40, marginVertical: 30 }}>
         {translate('greetings.Hello')}
       </Text>

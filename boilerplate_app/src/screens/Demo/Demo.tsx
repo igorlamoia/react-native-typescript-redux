@@ -7,6 +7,7 @@ import { Container } from './Demo.styled';
 import { translate } from '~/i18n';
 import { ButtonWrapper } from '~/components/Button';
 import { Switch } from '~/components/switch';
+import { LightBulb } from '~/components/light-bulb';
 
 export const Demo = observer(() => {
   const [enabled, setEnabled] = useState(true);
@@ -20,6 +21,7 @@ export const Demo = observer(() => {
         {translate('greetings.DemoScreen')}
       </Text>
       <Switch enabled={enabled} onPress={() => setEnabled(!enabled)} />
+      <LightBulb enabled={enabled} />
       <Text style={{ fontSize: 20 }}>
         {enabled ? translate('common.switchOn') : translate('common.switchOff')}
       </Text>

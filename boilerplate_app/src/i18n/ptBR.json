@@ -5,7 +5,9 @@
     "back": "Voltar",
     "next": "Próxima tela",
     "increment": "Soma 1",
-    "decrement": "Subtrai 1"
+    "decrement": "Subtrai 1",
+    "switchOn": "Tô Ligado.",
+    "switchOff": "Tô desligado."
   },
   "greetings": {
     "Hello": "Olá mundo",

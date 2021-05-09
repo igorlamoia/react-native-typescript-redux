@@ -5,7 +5,9 @@
     "back": "Go Back",
     "next": "Next screen",
     "increment": "Plus 1",
-    "decrement": "Minus 1"
+    "decrement": "Minus 1",
+    "switchOn": "I'm on.",
+    "switchOff": "I'm off."
   },
   "greetings": {
     "Hello": "Hello World",

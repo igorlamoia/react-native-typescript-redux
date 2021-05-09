@@ -8,7 +8,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:react-native/all',
-    'standard',
     'prettier',
     'prettier/@typescript-eslint',
   ],
@@ -54,7 +53,7 @@ module.exports = {
   plugins: ['react', 'prettier', '@typescript-eslint', 'react-native'],
   rules: {
     'prettier/prettier': 'error',
-    'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.js'] }],
+    'react/jsx-filename-extension': ['warn', { extensions: ['.tsx', '.ts'] }],
     'import/prefer-default-export': 'off',
     'no-param-reassign': 'off',
     'no-console': ['error', { allow: ['tron'] }],

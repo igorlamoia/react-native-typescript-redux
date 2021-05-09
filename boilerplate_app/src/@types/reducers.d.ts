@@ -3,11 +3,6 @@
  */
 
 // States of the counter reducer
-interface CounterState {
+declare interface CounterState {
   value: number;
 }
-
-type CounterAction = {
-  type: string;
-  payload: CounterState;
-};

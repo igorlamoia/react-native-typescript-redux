@@ -1,18 +1,19 @@
+/* eslint-disable react-native/no-inline-styles */
 import React, { useState } from 'react';
 import { observer } from 'mobx-react-lite';
 import { Button, Text } from 'react-native';
 
-import { useDispatch } from 'react-redux';
-import { useAppSelector } from '~/hooks';
+import { useAppDispatch, useAppSelector } from '~/hooks';
 import { increment, decrement } from '~/store/models/counter';
 
 import { Container } from './redux-demo.styled';
 import { translate } from '~/i18n';
 
 export const Counter = observer(() => {
-  // The ``state`` arg is correctly typed as `RootState` already
+  const dispatch = useAppDispatch();
+
+  // The `state` arg is correctly typed with all states from `RootState` already
   const count = useAppSelector(state => state.counter);
-  const dispatch = useDispatch<CounterDispatchType>();
   const [number, setNumber] = useState(count.value);
 
   const sum = () => {
@@ -27,7 +28,8 @@ export const Counter = observer(() => {
 
   return (
     <Container>
-      <Text style={{ fontSize: 40, marginVertical: 30 }}>
+      {/* Do not use inline styles, i'm just lazy :poop: */}
+      <Text style={{ fontSize: 30, marginVertical: 30, textAlign: 'center' }}>
         {translate('greetings.ReduxExample')}
       </Text>
       <Button title={translate('common.increment')} onPress={sum} />

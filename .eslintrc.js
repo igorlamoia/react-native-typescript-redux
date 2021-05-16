@@ -43,10 +43,6 @@ module.exports = {
       version: 'detect',
     },
     'import/resolver': {
-      // 'babel-plugin-root-import': {
-      //   rootPathPrefix: '~',
-      //   rootPathSuffix: 'src',
-      // },
       typescript: {},
       node: {
         extensions: ['.ts', '.tsx', '.native.js', '.js', '.jsx'],

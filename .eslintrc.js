@@ -1,16 +1,17 @@
 module.exports = {
   env: {
-    browser: true,
-    es6: true,
-    'react-native/react-native': true,
+    es2021: true,
   },
-  parser: '@typescript-eslint/parser',
   extends: [
-    // 'plugin:@typescript-eslint/recommended',
+    'eslint:recommended',
     'plugin:react/recommended',
-    'plugin:react-native/all',
-    'prettier',
+    'plugin:@typescript-eslint/recommended',
+    'airbnb',
+    'plugin:import/typescript',
+    'plugin:import/errors',
+    'plugin:import/warnings',
     'prettier/@typescript-eslint',
+    'prettier',
   ],
   globals: {
     Atomics: 'readonly',
@@ -26,9 +27,8 @@ module.exports = {
     describe: false,
     jest: false,
     it: false,
-    global: 'writable',
   },
-  parser: 'babel-eslint',
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -43,26 +43,33 @@ module.exports = {
       version: 'detect',
     },
     'import/resolver': {
-      'babel-plugin-root-import': {
-        rootPathPrefix: '~',
-        rootPathSuffix: 'src',
-      },
+      // 'babel-plugin-root-import': {
+      //   rootPathPrefix: '~',
+      //   rootPathSuffix: 'src',
+      // },
+      typescript: {},
       node: {
-        extensions: ['.ts', '.tsx', '.native.js'],
+        extensions: ['.ts', '.tsx', '.native.js', '.js', '.jsx'],
       },
     },
   },
-  plugins: ['react', 'prettier', '@typescript-eslint', 'react-native'],
+  plugins: ['react', '@typescript-eslint', 'react-native', 'prettier'],
   rules: {
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': [
       'warn',
       { extensions: ['.jsx', '.js', '.ts', '.tsx'] },
     ],
+    'import/extensions': 'off',
+    'import/no-extraneous-dependencies': 'off',
     'import/prefer-default-export': 'off',
+    'prettier/prettier': 'error',
+    'react/jsx-filename-extension': ['warn', { extensions: ['.tsx', '.ts'] }],
+    'react/jsx-props-no-spreading': 'off',
     'no-param-reassign': 'off',
     'no-console': ['error', { allow: ['tron'] }],
     '@typescript-eslint/ban-ts-ignore': 0,
+    '@typescript-eslint/ban-ts-comment': 0,
     '@typescript-eslint/explicit-function-return-type': 0,
     '@typescript-eslint/explicit-member-accessibility': 0,
     '@typescript-eslint/explicit-module-boundary-types': 0,
@@ -81,5 +88,12 @@ module.exports = {
     'react/no-unescaped-entities': 0,
     'react/prop-types': 'off',
     'space-before-function-paren': 0,
+    'react/jsx-closing-bracket-location': 0,
+    'no-unused-expressions': 0,
+    '@typescript-eslint/no-empty-function': 0,
+    '@typescript-eslint/no-unused-vars': 0,
+    'import/no-cycle': 0,
+    'global-require': 0,
+    'import/no-mutable-exports': 0,
   },
 };

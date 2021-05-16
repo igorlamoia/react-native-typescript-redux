@@ -5,7 +5,7 @@
  * it very often. But take some time to look through and understand
  * what is going on here.
  *
- * The app navigation resides in ./src/navigator, so head over there
+ * The app navigation resides in ./src/router, so head over there
  * if you're interested in adding screens and navigators.
  *
  * The fonts and color files resides in ./src/config.

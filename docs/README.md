@@ -28,53 +28,55 @@ $ cd react-native-typescript-redux-boilerplate
 
 ```text
 .
-├── boilerplate_app
-│   ├── __tests__
-│   ├── android
-│   ├── ios
+├── app
 │   └── src
 │       ├── @types
 │       ├── assets
+│       │   ├── animations
 │       │   ├── fonts
 │       │   └── images
 │       ├── components
-│       │   └── Button
+│       │   ├── Button
+│       │   ├── Light-bulb
+│       │   └── Switch
 │       ├── config
 │       ├── helpers
 │       ├── hooks
 │       ├── i18n
-│       ├── navigation
+│       ├── router
 │       ├── screens
-│       │   ├── demo
-│       │   ├── home
-│       │   └── redux-demo
+│       │   ├── Demo
+│       │   ├── Home
+│       │   └── Redux-demo
 │       ├── services
-│       │   └── rectotron
+│       │   └── reactotron
 │       ├── store
 │       │   ├── models
-│       │   ├──── counter
+│       │   │   └── counter
 │       │   └── root-store
 │       ├── theme
-│       └── utils
-│           ├── api
-│           └── storage
-└── LICENSE
+│       ├── utils
+│       │   └── storage
+│       └── App.tsx
+├── android
+├── docs
+├── ios
+└── index.js
 ```
 
 ## Tech stack
-* [TypeScript](https://www.typescriptlang.org/)
-* [Async Storage](https://github.com/react-native-async-storage/async-storage)
-* [Gesture Handler](https://github.com/software-mansion/react-native-gesture-handler)
-* [Redux](https://redux.js.org)
-* [React Native Paper](https://callstack.github.io/react-native-paper/) theme
-* [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
-* [React Navigation](https://reactnavigation.org)
-* [Hooks]() with redux hooks configured and typed
-* [Redux Thunk](https://github.com/reduxjs/redux-thunk)
-* [Reactotron](https://github.com/infinitered/reactotron)
-* [Styled Components](https://styled-components.com)
 
-
+- [TypeScript](https://www.typescriptlang.org/)
+- [Async Storage](https://github.com/react-native-async-storage/async-storage)
+- [Gesture Handler](https://github.com/software-mansion/react-native-gesture-handler)
+- [Redux](https://redux.js.org)
+- [React Native Paper](https://callstack.github.io/react-native-paper/) theme
+- [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
+- [React Navigation](https://reactnavigation.org)
+- [Hooks]() with redux hooks configured and typed
+- [Redux Thunk](https://github.com/reduxjs/redux-thunk)
+- [Reactotron](https://github.com/infinitered/reactotron)
+- [Styled Components](https://styled-components.com)
 
 ## How to use
 
@@ -93,4 +95,3 @@ $ yarn adb
 # installing the app on the device and starting metro server
 $ yarn run android
 ```
-

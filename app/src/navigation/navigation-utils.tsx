@@ -21,7 +21,7 @@ export const RootNavigation = {
 export const setRootNavigation = (
   ref: React.RefObject<NavigationContainerRef>,
 ) => {
-  Object.keys(RootNavigation).forEach(method => {
+  Object.keys(RootNavigation).forEach((method) => {
     RootNavigation[method] = (...args: any) => {
       if (ref.current) {
         return ref.current[method](...args);
@@ -106,7 +106,7 @@ export function useNavigationPersistence(storage: any, persistenceKey: string) {
   );
 
   const routeNameRef = useRef();
-  const onNavigationStateChange = state => {
+  const onNavigationStateChange = (state) => {
     const previousRouteName = routeNameRef.current;
     const currentRouteName = getActiveRouteName(state);
 

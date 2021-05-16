@@ -13,7 +13,7 @@ export const Counter = observer(() => {
   const dispatch = useAppDispatch();
 
   // The `state` arg is correctly typed with all states from `RootState` already
-  const count = useAppSelector(state => state.counter);
+  const count = useAppSelector((state) => state.counter);
   const [number, setNumber] = useState(count.value);
 
   const sum = () => {

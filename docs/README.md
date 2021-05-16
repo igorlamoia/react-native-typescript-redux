@@ -83,15 +83,14 @@ $ cd react-native-typescript-redux-boilerplate
 If you don't have the react-native environment already setup on your machine, please follow this [Link](https://reactnative.dev/docs/environment-setup) to setup everything you need to start
 
 ```sh
-$ cd boilerplate_app
 $ npm install
 # OR with yarn
 $ yarn
 # check if your device is online by running the following command
 # if running on a physical device, enable debug mode
 $ adb devices
-# call reactotron ports
-$ yarn adb
-# installing the app on the device and starting metro server
+# this starts the metro server and points to reactotron ports automatically
+$ yarn dev
+# installing the app on the device
 $ yarn run android
 ```

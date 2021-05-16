@@ -35,7 +35,7 @@ import {
   canExit,
   setRootNavigation,
   useNavigationPersistence,
-} from '~/navigation';
+} from '~/router';
 import { theme } from '~/theme';
 import { store } from '~/store';
 import * as storage from '~/utils/storage';

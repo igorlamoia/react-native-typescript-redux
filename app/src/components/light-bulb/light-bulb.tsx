@@ -11,13 +11,19 @@ export const LightBulb = ({ enabled }: LightBulbProps) => {
 
   useEffect(() => {
     const animation = ref.current;
-    enabled ? animation.play(90, 90) : animation.play(45, 45);
+    const effect = () =>
+      enabled ? animation.play(90, 90) : animation.play(45, 45);
+
+    effect();
   }, []);
 
   useEffect(() => {
-    if (!notAnimate.current) {
-      const animation = ref.current;
+    const animation = ref.current;
+    const effect = () =>
       enabled ? animation.play(20, 90) : animation.play(90, 150);
+
+    if (!notAnimate.current) {
+      effect();
     }
     notAnimate.current = false;
   }, [enabled]);

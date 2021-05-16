@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from 'react';
-import Lottie from 'lottie-react-native';
 import { View } from 'react-native';
+import Lottie from 'lottie-react-native';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
 import switchUri from './assets/switch.json';
 import { SwitchProps } from './switch.types';
-import { TouchableOpacity } from 'react-native-gesture-handler';
 
 export const Switch = ({ enabled, onPress }: SwitchProps) => {
   const ref = useRef<Lottie>();
@@ -12,13 +12,19 @@ export const Switch = ({ enabled, onPress }: SwitchProps) => {
 
   useEffect(() => {
     const animation = ref.current;
-    enabled ? animation.play(60, 60) : animation.play(29, 29);
+    const effect = () =>
+      enabled ? animation.play(60, 60) : animation.play(29, 29);
+
+    effect();
   }, []);
 
   useEffect(() => {
-    if (!notAnimate.current) {
-      const animation = ref.current;
+    const animation = ref.current;
+    const effect = () =>
       enabled ? animation.play(29, 60) : animation.play(0, 29);
+
+    if (!notAnimate.current) {
+      effect();
     }
     notAnimate.current = false;
   }, [enabled]);

@@ -4,9 +4,9 @@ import { Text } from 'react-native';
 import { observer } from 'mobx-react-lite';
 import { useNavigation } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/AntDesign';
+import LottieView from 'lottie-react-native';
 import { translate } from '~/i18n';
 import { Button } from '~/components';
-import LottieView from 'lottie-react-native';
 
 import { Container } from './Home.styled';
 

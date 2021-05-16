@@ -2,7 +2,7 @@ import { createStore, applyMiddleware, Store, compose } from 'redux';
 import thunk from 'redux-thunk';
 
 import { ReactotronInstance as Reactotron } from '~/services/reactotron';
-import rootReducer from './root-reducer';
+import { reducers } from './root-reducer';
 
 const enhancer = __DEV__
   ? // @ts-ignore ignore type checks for createEnhancer as it doesnt exists
@@ -10,4 +10,4 @@ const enhancer = __DEV__
   : applyMiddleware(thunk);
 
 // @ts-ignore same as above
-export const store: Store = createStore(rootReducer, enhancer);
+export const store: Store = createStore(reducers, enhancer);

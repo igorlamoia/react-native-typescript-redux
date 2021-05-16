@@ -1,3 +1,4 @@
+/* eslint-disable consistent-return */
 import React, { useState, useEffect, useRef } from 'react';
 import { BackHandler } from 'react-native';
 import {
@@ -20,13 +21,13 @@ export const RootNavigation = {
 export const setRootNavigation = (
   ref: React.RefObject<NavigationContainerRef>,
 ) => {
-  for (const method in RootNavigation) {
+  Object.keys(RootNavigation).forEach(method => {
     RootNavigation[method] = (...args: any) => {
       if (ref.current) {
         return ref.current[method](...args);
       }
     };
-  }
+  });
 };
 
 /**

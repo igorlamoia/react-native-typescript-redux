@@ -65,7 +65,9 @@ export async function save(key: string, value: any): Promise<boolean> {
 export async function remove(key: string): Promise<void> {
   try {
     await AsyncStorage.removeItem(key);
-  } catch {}
+  } catch {
+    /* catch'em all */
+  }
 }
 
 /**
@@ -74,5 +76,7 @@ export async function remove(key: string): Promise<void> {
 export async function clear(): Promise<void> {
   try {
     await AsyncStorage.clear();
-  } catch {}
+  } catch {
+    /* catch'em all */
+  }
 }

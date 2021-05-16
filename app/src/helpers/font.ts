@@ -18,13 +18,13 @@ type KeyPath = RecursiveKeyOf<Fonts>;
 /**
  * A simple way to set your font independent of the device
  *
- * @param font Font weight to be used
+ * @param {font} Font weight to be used
  * @returns Font Family Name
  *
  * Use this method to easily set your custom font
  */
-export const font = (font: KeyPath): FontFamily => {
+export const font = (fontKey: KeyPath): FontFamily => {
   return Platform.OS === 'android'
-    ? fontConfig.android[font].fontFamily
-    : fontConfig.ios[font].fontFamily;
+    ? fontConfig.android[fontKey].fontFamily
+    : fontConfig.ios[fontKey].fontFamily;
 };

@@ -59,8 +59,6 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
     'import/prefer-default-export': 'off',
-    'prettier/prettier': 'error',
-    'react/jsx-filename-extension': ['warn', { extensions: ['.tsx', '.ts'] }],
     'react/jsx-props-no-spreading': 'off',
     'no-param-reassign': 'off',
     'no-console': ['error', { allow: ['tron'] }],

@@ -101,9 +101,8 @@ export function useBackButtonHandler(
  */
 export function useNavigationPersistence(storage: any, persistenceKey: string) {
   const [initialNavigationState, setInitialNavigationState] = useState();
-  const [isRestoringNavigationState, setIsRestoringNavigationState] = useState(
-    true,
-  );
+  const [isRestoringNavigationState, setIsRestoringNavigationState] =
+    useState(true);
 
   const routeNameRef = useRef();
   const onNavigationStateChange = (state) => {

@@ -52,10 +52,8 @@ const App = () => {
 
   setRootNavigation(navigationRef);
   useBackButtonHandler(navigationRef, canExit);
-  const {
-    initialNavigationState,
-    onNavigationStateChange,
-  } = useNavigationPersistence(storage, NAVIGATION_PERSISTENCE_KEY);
+  const { initialNavigationState, onNavigationStateChange } =
+    useNavigationPersistence(storage, NAVIGATION_PERSISTENCE_KEY);
 
   return (
     <StoreProvider store={store}>

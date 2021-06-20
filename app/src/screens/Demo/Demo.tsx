@@ -8,7 +8,7 @@ import { Container } from './Demo.styled';
 import { translate } from '~/i18n';
 import { ButtonWrapper, Switch, LightBulb } from '~/components';
 
-export const Demo = observer(() => {
+export const Demo = () => {
   const [enabled, setEnabled] = useState(true);
   const navigation = useNavigation();
   const nextScreen = () => navigation.navigate('Counter');
@@ -30,4 +30,4 @@ export const Demo = observer(() => {
       </ButtonWrapper>
     </Container>
   );
-});
+};

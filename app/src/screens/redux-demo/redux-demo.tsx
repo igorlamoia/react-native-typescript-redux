@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { observer } from 'mobx-react-lite';
 import { Button, Text } from 'react-native';
-
+import Animated, { Easing, FadeInDown } from 'react-native-reanimated';
 import { useAppDispatch, useAppSelector } from '~/hooks';
 import { increment, decrement } from '~/store/models/counter';
 
@@ -29,12 +29,32 @@ export const Counter = observer(() => {
   return (
     <Container>
       {/* Do not use inline styles, i'm just lazy :poop: */}
-      <Text style={{ fontSize: 30, marginVertical: 30, textAlign: 'center' }}>
-        {translate('greetings.ReduxExample')}
-      </Text>
-      <Button title={translate('common.increment')} onPress={sum} />
-      <Text style={{ fontSize: 40, marginVertical: 30 }}>{number}</Text>
-      <Button title={translate('common.decrement')} onPress={substract} />
+      <Animated.View
+        entering={FadeInDown.delay(500)
+          .duration(1000)
+          .easing(Easing.inOut(Easing.ease))}>
+        <Text style={{ fontSize: 30, marginVertical: 30, textAlign: 'center' }}>
+          {translate('greetings.ReduxExample')}
+        </Text>
+      </Animated.View>
+      <Animated.View
+        entering={FadeInDown.delay(500)
+          .duration(1000)
+          .easing(Easing.inOut(Easing.ease))}>
+        <Button title={translate('common.increment')} onPress={sum} />
+      </Animated.View>
+      <Animated.View
+        entering={FadeInDown.delay(500)
+          .duration(1000)
+          .easing(Easing.inOut(Easing.ease))}>
+        <Text style={{ fontSize: 40, marginVertical: 30 }}>{number}</Text>
+      </Animated.View>
+      <Animated.View
+        entering={FadeInDown.delay(500)
+          .duration(1000)
+          .easing(Easing.inOut(Easing.ease))}>
+        <Button title={translate('common.decrement')} onPress={substract} />
+      </Animated.View>
     </Container>
   );
 });

@@ -47,7 +47,7 @@ export const NAVIGATION_PERSISTENCE_KEY = 'NAVIGATION_STATE';
 /**
  * Root component of the app.
  */
-const App = () => {
+const App: React.FC = () => {
   const navigationRef = useRef<NavigationContainerRef>();
 
   setRootNavigation(navigationRef);

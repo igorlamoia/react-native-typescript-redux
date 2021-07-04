@@ -1,6 +1,5 @@
 /* eslint-disable react-native/no-inline-styles */
 import React, { useState } from 'react';
-import { observer } from 'mobx-react-lite';
 import { Button, Text } from 'react-native';
 
 import { useAppDispatch, useAppSelector } from '~/hooks';
@@ -9,7 +8,7 @@ import { increment, decrement } from '~/store/models/counter';
 import { Container } from './redux-demo.styled';
 import { translate } from '~/i18n';
 
-export const Counter = observer(() => {
+export const Counter = () => {
   const dispatch = useAppDispatch();
 
   // The `state` arg is correctly typed with all states from `RootState` already
@@ -37,4 +36,4 @@ export const Counter = observer(() => {
       <Button title={translate('common.decrement')} onPress={substract} />
     </Container>
   );
-});
+};

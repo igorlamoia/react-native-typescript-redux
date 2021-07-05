@@ -3,10 +3,10 @@ import React, { useState } from 'react';
 import { Button, Text } from 'react-native';
 
 import { useAppDispatch, useAppSelector } from '~/hooks';
-import { increment, decrement } from '~/store/models/counter';
 
 import { Container } from './redux-demo.styled';
 import { translate } from '~/i18n';
+import { setValue } from '~/store/ducks/counter';
 
 export const Counter = () => {
   const dispatch = useAppDispatch();
@@ -17,12 +17,12 @@ export const Counter = () => {
 
   const sum = () => {
     setNumber(number + 1);
-    dispatch(increment({ value: number + 1 }));
+    dispatch(setValue(number + 1));
   };
 
   const substract = () => {
     setNumber(number - 1);
-    dispatch(decrement({ value: number - 1 }));
+    dispatch(setValue(number - 1));
   };
 
   return (

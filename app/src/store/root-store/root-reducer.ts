@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
-import { counterReducer } from '~/store/models/counter';
+import { counterReducer as counter } from '../ducks';
 
 export const reducers = combineReducers({
-  counter: counterReducer,
+  counter,
 });

@@ -26,11 +26,8 @@ if (__DEV__) {
   ReactotronInstance = Tron.setAsyncStorageHandler(AsyncStorage)
     // configure reactotron
     .configure({
-      name:
-        config.name ||
-        Promise.call(
-          import('../../../../package.json').then((res) => res.name),
-        ),
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      name: config.name || require('../../../../package.json').name,
     })
     .useReactNative({
       asyncStorage: config.useAsyncStorage ? undefined : false,

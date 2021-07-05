@@ -1,11 +1,13 @@
 import React, { useEffect, useRef } from 'react';
 import Lottie from 'lottie-react-native';
-import { View } from 'react-native';
 
-import lottieUri from './assets/light-bulb.json';
-import { LightBulbProps } from './light-bulb.types';
+import { LightBulbComponent } from './light-bulb.styled';
 
-export const LightBulb = ({ enabled }: LightBulbProps) => {
+type LightBulbProps = {
+  enabled?: boolean;
+};
+
+export const LightBulb: React.FC<LightBulbProps> = ({ enabled }) => {
   const ref = useRef<Lottie>();
   const notAnimate = useRef(true);
 
@@ -28,14 +30,5 @@ export const LightBulb = ({ enabled }: LightBulbProps) => {
     notAnimate.current = false;
   }, [enabled]);
 
-  return (
-    <View>
-      <Lottie
-        ref={ref}
-        source={lottieUri}
-        loop={false}
-        style={{ height: 250 }}
-      />
-    </View>
-  );
+  return <LightBulbComponent lottieRef={ref} />;
 };

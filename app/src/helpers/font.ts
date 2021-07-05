@@ -1,19 +1,19 @@
 import { Platform } from 'react-native';
 import { fontConfig } from '~/config';
 
-type Fonts = {
-  regular: string;
-  medium: string;
-  light: string;
-  thin: string;
-  semiBold: string;
-  bold: string;
-};
+enum Fonts {
+  regular,
+  medium,
+  light,
+  thin,
+  semiBold,
+  bold,
+}
 
 // @TODO
 type FontFamily = string;
 
-type KeyPath = RecursiveKeyOf<Fonts>;
+type KeyPath = keyof typeof Fonts;
 
 /**
  * A simple way to set your font independent of the device

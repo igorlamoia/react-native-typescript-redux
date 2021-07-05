@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+// type error Only
+
 import { createStore, applyMiddleware, Store, compose } from 'redux';
 import thunk from 'redux-thunk';
 

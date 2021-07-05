@@ -1,5 +1,7 @@
 import Tron from 'reactotron-react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { reactotronRedux } from 'reactotron-redux';
+
 import {
   ReactotronConfig,
   DEFAULT_REACTOTRON_CONFIG,
@@ -17,18 +19,18 @@ let ReactotronInstance: typeof Tron;
 const config: ReactotronConfig = DEFAULT_REACTOTRON_CONFIG;
 
 /** Do Nothing. */
-const nope = () => undefined;
+const noop = () => null;
 
 if (__DEV__) {
-  const Reactotron = require('reactotron-react-native').default;
-
-  const { reactotronRedux } = require('reactotron-redux');
-
   // You can use either `@react-native-async-storage/async-storage` or `@react-native-community/async-storage`
-  ReactotronInstance = Reactotron.setAsyncStorageHandler(AsyncStorage)
+  ReactotronInstance = Tron.setAsyncStorageHandler(AsyncStorage)
     // configure reactotron
     .configure({
-      name: config.name || require('../../../../package.json').name,
+      name:
+        config.name ||
+        Promise.call(
+          import('../../../../package.json').then((res) => res.name),
+        ),
     })
     .useReactNative({
       asyncStorage: config.useAsyncStorage ? undefined : false,
@@ -39,25 +41,25 @@ if (__DEV__) {
 } else {
   // attach a mock so if things go wrong we won't crash.
   console.tron = {
-    benchmark: nope,
-    clear: nope,
-    close: nope,
-    configure: nope,
-    connect: nope,
-    display: nope,
-    error: nope,
-    image: nope,
-    log: nope,
-    logImportant: nope,
-    onCustomCommand: nope,
-    overlay: nope,
-    reportError: nope,
-    send: nope,
-    startTimer: nope,
-    storybookSwitcher: nope,
-    use: nope,
-    useReactNative: nope,
-    warn: nope,
+    benchmark: noop,
+    clear: noop,
+    close: noop,
+    configure: noop,
+    connect: noop,
+    display: noop,
+    error: noop,
+    image: noop,
+    log: noop,
+    logImportant: noop,
+    onCustomCommand: noop,
+    overlay: noop,
+    reportError: noop,
+    send: noop,
+    startTimer: noop,
+    storybookSwitcher: noop,
+    use: noop,
+    useReactNative: noop,
+    warn: noop,
   };
 }
 

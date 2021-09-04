@@ -1,7 +1,7 @@
-import Modal from 'react-native-modal';
+// import Modal from 'react-native-modal';
 import styled from 'styled-components/native';
 
-export const RNModal = styled(Modal)`
+export const RNModal = styled.Modal`
   justify-content: flex-end;
   margin: 0;
 `;

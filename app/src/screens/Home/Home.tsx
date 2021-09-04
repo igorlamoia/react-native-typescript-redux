@@ -1,7 +1,6 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
 import { Text } from 'react-native-paper';
-import { useNavigation } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/AntDesign';
 import Animated, { Easing, FadeInDown } from 'react-native-reanimated';
 import { translate } from '~/i18n';
@@ -10,7 +9,7 @@ import { Button } from '~/components';
 import { Container } from './Home.styled';
 import { Modal } from '~/components/modal/modal';
 
-export const Home = () => {
+export const Home: React.FC = () => {
   const [isModalVisible, setIsModalVisible] = React.useState(false);
 
   const toggleModal = React.useCallback(
@@ -33,12 +32,6 @@ export const Home = () => {
           entering={FadeInDown.delay(500)
             .duration(700)
             .easing(Easing.inOut(Easing.ease))}>
-          {/* <Button
-          mode="outlined"
-          onPress={nextScreen}
-          icon={() => <Icon name="star" size={20} color="#007bff" />}>
-          <Text>{translate('common.next')}</Text>
-        </Button> */}
           <Button
             mode="outlined"
             onPress={toggleModal}

@@ -1,9 +1,8 @@
 # React Native TypeScript Boilerplate
 
-[![GitHub version](https://img.shields.io/badge/version-v0.1.0-blue.svg)](https://github.com/raulmax319/react-native-typescript-redux-boilerplate)
+[![GitHub version](https://img.shields.io/badge/version-v0.2.0-blue.svg)](https://github.com/raulmax319/react-native-typescript-redux-boilerplate)
 [![License](https://img.shields.io/github/license/raulmax319/react-native-typescript-redux-boilerplate)](https://github.com/raulmax319/react-native-typescript-redux-boilerplate/blob/main/LICENSE)
-[![React Native](https://img.shields.io/badge/React%20Native-0.64.0-blue)](https://github.com/raulmax319/react-native-typescript-redux-boilerplate/blob/e4f6b04791581a83501fe2fc351bc88545afd05a/boilerplate_app/package.json#L21)
-[![help](https://img.shields.io/github/labels/raulmax319/react-native-typescript-redux-boilerplate/Help%20Wanted)]()
+[![React Native](https://img.shields.io/badge/React%20Native-0.65.1-blue)](https://github.com/raulmax319/react-native-typescript-redux-boilerplate/blob/e4f6b04791581a83501fe2fc351bc88545afd05a/boilerplate_app/package.json#L21)
 
 Boilerplate for creating React Native applications with typescript
 
@@ -40,8 +39,8 @@ $ cd react-native-typescript-redux-boilerplate
 │       │   ├── Light-bulb
 │       │   └── Switch
 │       ├── config
+│       │   └── reactotron
 │       ├── helpers
-│       ├── hooks
 │       ├── i18n
 │       ├── router
 │       ├── screens
@@ -51,12 +50,13 @@ $ cd react-native-typescript-redux-boilerplate
 │       ├── services
 │       │   └── reactotron
 │       ├── store
-│       │   ├── models
+│       │   ├── ducks
 │       │   │   └── counter
 │       │   └── root-store
 │       ├── theme
 │       ├── utils
-│       │   └── storage
+│       │   ├── storage
+│       │   └── hooks
 │       └── App.tsx
 ├── android
 ├── docs
@@ -70,10 +70,10 @@ $ cd react-native-typescript-redux-boilerplate
 - [Async Storage](https://github.com/react-native-async-storage/async-storage)
 - [Gesture Handler](https://github.com/software-mansion/react-native-gesture-handler)
 - [Redux](https://redux.js.org)
-- [React Native Paper](https://callstack.github.io/react-native-paper/) theme
+- [React Native Paper](https://callstack.github.io/react-native-paper/)
 - [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
 - [React Navigation](https://reactnavigation.org)
-- [Hooks]() with redux hooks configured and typed
+- [Hooks]()
 - [Redux Thunk](https://github.com/reduxjs/redux-thunk)
 - [Reactotron](https://github.com/infinitered/reactotron)
 - [Styled Components](https://styled-components.com)

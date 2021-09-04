@@ -21,23 +21,23 @@ export const fontConfig: FontTypes = {
   },
   ios: {
     regular: {
-      fontFamily: 'MontserratRegular',
+      fontFamily: 'Montserrat Regular',
       fontWeight: '400',
     },
     medium: {
-      fontFamily: 'MontserratMedium',
+      fontFamily: 'Montserrat Medium',
       fontWeight: '500',
     },
     light: {
-      fontFamily: 'MontserratLight',
+      fontFamily: 'Montserrat Light',
       fontWeight: '100',
     },
     thin: {
-      fontFamily: 'MontserratThin',
+      fontFamily: 'Montserrat Thin',
       fontWeight: '300',
     },
     bold: {
-      fontFamily: 'MontserratBold',
+      fontFamily: 'Montserrat Bold',
       fontWeight: '700',
     },
   },

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Button, Text } from 'react-native';
 
-import { useAppDispatch, useAppSelector } from '~/hooks';
+import { useAppDispatch, useAppSelector } from '~/utils/hooks';
 
 import { Container } from './redux-demo.styled';
 import { translate } from '~/i18n';

@@ -35,6 +35,7 @@ export const Switch = ({ enabled, onPress }: SwitchProps) => {
         <Lottie
           ref={ref}
           source={switchUri}
+          // eslint-disable-next-line react-native/no-inline-styles
           style={{ height: 50 }}
           loop={false}
         />

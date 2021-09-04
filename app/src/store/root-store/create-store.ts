@@ -1,7 +1,10 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+// type error Only
+
 import { createStore, applyMiddleware, Store, compose } from 'redux';
 import thunk from 'redux-thunk';
 
-import { ReactotronInstance as Reactotron } from '~/services/reactotron';
+import { ReactotronInstance as Reactotron } from '~/config/reactotron';
 import { reducers } from './root-reducer';
 
 const enhancer = __DEV__

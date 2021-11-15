@@ -19,7 +19,7 @@ export const RootNavigation = {
 };
 
 export const setRootNavigation = (
-  ref: React.RefObject<NavigationContainerRef>,
+  ref: React.RefObject<NavigationContainerRef<any>>,
 ) => {
   Object.keys(RootNavigation).forEach((method) => {
     RootNavigation[method] = (...args: any) => {
@@ -50,7 +50,7 @@ export function getActiveRouteName(
  * the navigation or allows exiting the app.
  */
 export function useBackButtonHandler(
-  ref: React.RefObject<NavigationContainerRef>,
+  ref: React.RefObject<NavigationContainerRef<any>>,
   canExit: (routeName: string) => boolean,
 ) {
   const canExitRef = useRef(canExit);

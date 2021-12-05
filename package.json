@@ -1,9 +1,12 @@
 {
-  "name": "react-native-typecript-redux",
+  "name": "react-native-typescript-redux",
   "description": "React Native template with TypeScript, Redux, React Navigation v6, and more",
   "repository": {
     "type": "git",
     "url": "git+git@github.com:raulmax319/react-native-typescript-redux.git"
+  },
+  "scripts": {
+    "postinstall": "husky install"
   },
   "author": "Raul Max",
   "license": "MIT",
@@ -24,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/raulmax319/react-native-typescript-redux/issues"
   },
-  "homepage": "https://github.com/raulmax319/react-native-typescript-redux#readme"
+  "homepage": "https://github.com/raulmax319/react-native-typescript-redux#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "@release-it/conventional-changelog": "^3.3.0",
+    "husky": "^7.0.4",
+    "release-it": "^14.11.8"
+  }
 }

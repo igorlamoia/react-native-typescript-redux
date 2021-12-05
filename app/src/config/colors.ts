@@ -9,6 +9,6 @@ export const colors = {
   textDark: '#121519',
   textLightGray: '#8f8f8f',
 
-  background: '#007bff',
+  background: '#fdfdfd',
   backgroundLight: '#00000012',
 };

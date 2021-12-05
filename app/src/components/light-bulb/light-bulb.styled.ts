@@ -1,4 +1,4 @@
-import { createElement as createReactElement } from 'react';
+import { createElement as createReactElement, MutableRefObject } from 'react';
 import styled from 'styled-components/native';
 import Lottie from 'lottie-react-native';
 import { ViewStyle } from 'react-native';
@@ -6,7 +6,7 @@ import { ViewStyle } from 'react-native';
 import lottieUri from './assets/light-bulb.json';
 
 type LottieViewProps = ViewStyle & {
-  lottieRef: any;
+  lottieRef: MutableRefObject<Lottie>;
 };
 
 export const LightBulbComponent = styled.View.attrs(

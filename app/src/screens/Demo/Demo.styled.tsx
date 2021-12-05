@@ -4,5 +4,5 @@ export const Container = styled.View`
   flex: 1;
   align-items: center;
   justify-content: space-around;
-  background-color: #eeeeee;
+  background-color: ${(props) => props.theme.colors.background};
 `;

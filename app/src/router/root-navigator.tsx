@@ -8,7 +8,7 @@ import {
 import { RootStack } from './root-stack';
 
 export const RootNavigator = React.forwardRef<
-  NavigationContainerRef,
+  NavigationContainerRef<unknown>,
   Partial<ComponentProps<typeof NavigationContainer>>
 >((props, ref) => {
   return (

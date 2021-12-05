@@ -130,6 +130,22 @@ export type FontTypes = {
         | '900'
         | undefined;
     };
+    semiBold: {
+      fontFamily: string;
+      fontWeight:
+        | 'normal'
+        | '400'
+        | '500'
+        | '100'
+        | '300'
+        | '700'
+        | '600'
+        | 'bold'
+        | '200'
+        | '800'
+        | '900'
+        | undefined;
+    };
     bold: {
       fontFamily: string;
       fontWeight:

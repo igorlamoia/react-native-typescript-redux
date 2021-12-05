@@ -21,6 +21,7 @@ import '~/helpers/ignore-warnings';
 import '~/i18n';
 import React, { useRef } from 'react';
 import { enableScreens } from 'react-native-screens';
+import { ThemeProvider } from 'styled-components/native';
 import { Provider as PaperProvider } from 'react-native-paper';
 import { Provider as StoreProvider } from 'react-redux';
 import { NavigationContainerRef } from '@react-navigation/native';
@@ -36,7 +37,7 @@ import {
   setRootNavigation,
   useNavigationPersistence,
 } from '~/router';
-import { theme } from '~/theme';
+import { styledTheme, theme } from '~/theme';
 import { store } from '~/store';
 import * as storage from '~/utils/storage';
 
@@ -48,7 +49,7 @@ export const NAVIGATION_PERSISTENCE_KEY = 'NAVIGATION_STATE';
  * Root component of the app.
  */
 const App: React.FC = () => {
-  const navigationRef = useRef<NavigationContainerRef>();
+  const navigationRef = useRef<NavigationContainerRef<unknown>>();
 
   setRootNavigation(navigationRef);
   useBackButtonHandler(navigationRef, canExit);
@@ -58,13 +59,15 @@ const App: React.FC = () => {
   return (
     <StoreProvider store={store}>
       <PaperProvider theme={theme}>
-        <SafeAreaProvider initialMetrics={initialWindowMetrics}>
-          <RootNavigator
-            ref={navigationRef}
-            initialState={initialNavigationState}
-            onStateChange={onNavigationStateChange}
-          />
-        </SafeAreaProvider>
+        <ThemeProvider theme={styledTheme}>
+          <SafeAreaProvider initialMetrics={initialWindowMetrics}>
+            <RootNavigator
+              ref={navigationRef}
+              initialState={initialNavigationState}
+              onStateChange={onNavigationStateChange}
+            />
+          </SafeAreaProvider>
+        </ThemeProvider>
       </PaperProvider>
     </StoreProvider>
   );

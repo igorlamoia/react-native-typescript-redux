@@ -6,10 +6,11 @@ import { useNavigation } from '@react-navigation/native';
 import { Container } from './Demo.styled';
 import { translate } from '~/i18n';
 import { ButtonWrapper, Switch, LightBulb } from '~/components';
+import { ScreenList } from '~/@types/stack-list';
 
 export const Demo = () => {
   const [enabled, setEnabled] = useState(true);
-  const navigation = useNavigation();
+  const navigation = useNavigation<ScreenList<'Counter'>>();
   const nextScreen = () => navigation.navigate('Counter');
   const previewScreen = () => navigation.goBack();
 

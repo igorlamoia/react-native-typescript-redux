@@ -2,14 +2,9 @@ import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import { Demo, Home, Counter } from '~/screens';
+import { MainStackList } from '~/@types/stack-list';
 
-type StackList = {
-  Home: undefined;
-  Demo: undefined;
-  Counter: undefined;
-};
-
-const Stack = createStackNavigator<StackList>();
+const Stack = createStackNavigator<MainStackList>();
 
 export const MainNavigator = () => {
   return (

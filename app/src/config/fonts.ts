@@ -36,6 +36,10 @@ export const fontConfig: FontTypes = {
       fontFamily: 'Montserrat Thin',
       fontWeight: '300',
     },
+    semiBold: {
+      fontFamily: 'Montserrat SemiBold',
+      fontWeight: '600',
+    },
     bold: {
       fontFamily: 'Montserrat Bold',
       fontWeight: '700',

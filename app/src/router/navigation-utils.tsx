@@ -1,4 +1,5 @@
-/* eslint-disable consistent-return */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useState, useEffect, useRef } from 'react';
 import { BackHandler } from 'react-native';
 import {
@@ -12,14 +13,14 @@ export const RootNavigation = {
     name;
   },
   goBack() {},
-  resetRoot(state?: PartialState<NavigationState> | NavigationState) {},
+  resetRoot(_state?: PartialState<NavigationState> | NavigationState) {},
   getRootState(): NavigationState {
     return {} as any;
   },
 };
 
 export const setRootNavigation = (
-  ref: React.RefObject<NavigationContainerRef<any>>,
+  ref: React.RefObject<NavigationContainerRef<unknown>>,
 ) => {
   Object.keys(RootNavigation).forEach((method) => {
     RootNavigation[method] = (...args: any) => {
@@ -50,7 +51,7 @@ export function getActiveRouteName(
  * the navigation or allows exiting the app.
  */
 export function useBackButtonHandler(
-  ref: React.RefObject<NavigationContainerRef<any>>,
+  ref: React.RefObject<NavigationContainerRef<unknown>>,
   canExit: (routeName: string) => boolean,
 ) {
   const canExitRef = useRef(canExit);

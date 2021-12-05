@@ -65,7 +65,7 @@ ReactotronInstance.onCustomCommand({
   description: 'Resets redux store',
   command: 'resetStore',
   handler: () => {
-    console.tron.log('resetting store');
+    __DEV__ && console.tron.log('resetting store');
     clear();
   },
 });
@@ -75,7 +75,7 @@ ReactotronInstance.onCustomCommand({
   description: 'Resets the navigation state',
   command: 'resetNavigation',
   handler: () => {
-    console.tron.log('resetting navigation state');
+    __DEV__ && console.tron.log('resetting navigation state');
     RootNavigation.resetRoot({ routes: [] });
   },
 });

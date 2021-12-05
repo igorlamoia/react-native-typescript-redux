@@ -25,6 +25,7 @@ export const Home = () => {
       <Button
         mode="outlined"
         onPress={nextScreen}
+        disabled
         icon={() => <Icon name="star" size={20} color="#007bff" />}>
         {translate('common.next')}
       </Button>

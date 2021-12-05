@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "app/src",
+    "baseUrl": "src",
     "paths": {
       "~/*": ["*"]
     },

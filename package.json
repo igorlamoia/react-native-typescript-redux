@@ -8,6 +8,10 @@
   "scripts": {
     "postinstall": "husky install"
   },
+  "files": [
+    "app",
+    "template.config.js"
+  ],
   "author": "Raul Max",
   "license": "MIT",
   "keywords": [

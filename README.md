@@ -1,8 +1,8 @@
 # React Native TypeScript Boilerplate
 
-[![GitHub version](https://img.shields.io/badge/version-v0.2.0-blue.svg)](https://github.com/raulmax319/react-native-typescript-redux-boilerplate)
 [![License](https://img.shields.io/github/license/raulmax319/react-native-typescript-redux-boilerplate)](https://github.com/raulmax319/react-native-typescript-redux-boilerplate/blob/main/LICENSE)
-[![React Native](https://img.shields.io/badge/React%20Native-0.65.1-blue)](https://github.com/raulmax319/react-native-typescript-redux-boilerplate/blob/e4f6b04791581a83501fe2fc351bc88545afd05a/boilerplate_app/package.json#L21)
+[![React Native](https://img.shields.io/badge/React%20Native-0.66.3-blue)](https://github.com/raulmax319/react-native-typescript-redux-boilerplate/blob/e4f6b04791581a83501fe2fc351bc88545afd05a/boilerplate_app/package.json#L21)
+[![npm](https://img.shields.io/badge/npm-1.1.0-blue)](https://www.npmjs.com/package/react-native-typescript-redux)
 
 Boilerplate for creating React Native applications with typescript
 
@@ -19,8 +19,7 @@ Contributions are welcome! If you have questions, feature requests or a bug you 
 Open your terminal and type in
 
 ```sh
-$ git clone https://github.com/raulmax319/react-native-typescript-redux-boilerplate.git
-$ cd react-native-typescript-redux-boilerplate
+npx react-native init AwesomeProject --template react-native-typescript-redux
 ```
 
 ## Folder Structure

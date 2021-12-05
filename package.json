@@ -6,9 +6,6 @@
     "type": "git",
     "url": "git+git@github.com:raulmax319/react-native-typescript-redux.git"
   },
-  "scripts": {
-    "postinstall": "husky install"
-  },
   "files": [
     "app",
     "template.config.js"

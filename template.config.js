@@ -1,5 +1,5 @@
 module.exports = {
   placeholderName: "boilerplate_app",
-  templateDir: "./app",
+  templateDir: "./template",
   postInitScript: "./script.js",
 };

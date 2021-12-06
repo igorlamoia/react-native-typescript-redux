@@ -7,7 +7,7 @@
     "url": "git+git@github.com:raulmax319/react-native-typescript-redux.git"
   },
   "files": [
-    "app",
+    "template",
     "template.config.js"
   ],
   "author": "Raul Max",

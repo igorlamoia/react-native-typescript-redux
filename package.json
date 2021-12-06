@@ -1,6 +1,6 @@
 {
   "name": "react-native-typescript-redux",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "React Native template with TypeScript, Redux, React Navigation v6, and more",
   "repository": {
     "type": "git",

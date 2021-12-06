@@ -1,4 +1,4 @@
-package com.boilerplate_app;
+package com.boilerplate;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "boilerplate_app";
+    return "boilerplate";
   }
 }

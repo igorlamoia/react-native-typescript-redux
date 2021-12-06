@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* boilerplate_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* boilerplate_appTests.m */; };
+		00E356F31AD99517003FC87E /* boilerplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* boilerplateTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		203111BD577D4CC9B2734E1E /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 165B1D1C408C4A9A9ECCDBEE /* Montserrat-Regular.ttf */; };
 		257CD19B88C5494AACF4C46F /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 216B4B9948C4488F867F3AFA /* Montserrat-Medium.ttf */; };
-		606DFAD9F0D0212AB7252BFC /* libPods-boilerplate_app-boilerplate_appTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DEF00860809B579AAC1B58 /* libPods-boilerplate_app-boilerplate_appTests.a */; };
+		606DFAD9F0D0212AB7252BFC /* libPods-boilerplate-boilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DEF00860809B579AAC1B58 /* libPods-boilerplate-boilerplateTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8B169D2EEC3841BA855F6A26 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5C85AB87926432594E8E558 /* Montserrat-Thin.ttf */; };
 		9F034F4E37D8456CA9C08BB0 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D1E7E216C2A4798BB035CBD /* Montserrat-Light.ttf */; };
-		AD08B37415501FD52EBD26D8 /* libPods-boilerplate_app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FFB8935CEBC58681E4E38A /* libPods-boilerplate_app.a */; };
+		AD08B37415501FD52EBD26D8 /* libPods-boilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FFB8935CEBC58681E4E38A /* libPods-boilerplate.a */; };
 		B79EA8A6BC894857B2A77A69 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A850832AA774BFFA8A20555 /* Montserrat-Bold.ttf */; };
 		CDE32B2BAC284D8D8D38665E /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D571E3A324DA471187831F0E /* Montserrat-SemiBold.ttf */; };
 		F1FC30C62659B7B0004E85E5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC30C52659B7B0004E85E5 /* File.swift */; };
@@ -29,42 +29,42 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = boilerplate_app;
+			remoteInfo = boilerplate;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* boilerplate_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boilerplate_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* boilerplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boilerplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* boilerplate_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = boilerplate_appTests.m; sourceTree = "<group>"; };
-		0244FDA37CE88F16A49697AC /* Pods-boilerplate_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate_app.debug.xcconfig"; path = "Target Support Files/Pods-boilerplate_app/Pods-boilerplate_app.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* boilerplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = boilerplateTests.m; sourceTree = "<group>"; };
+		0244FDA37CE88F16A49697AC /* Pods-boilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate.debug.xcconfig"; path = "Target Support Files/Pods-boilerplate/Pods-boilerplate.debug.xcconfig"; sourceTree = "<group>"; };
 		04EFAC44CC344735BB892EAC /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* boilerplate_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boilerplate_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = boilerplate_app/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = boilerplate_app/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = boilerplate_app/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = boilerplate_app/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = boilerplate_app/main.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = boilerplate/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = boilerplate/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = boilerplate/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = boilerplate/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = boilerplate/main.m; sourceTree = "<group>"; };
 		165B1D1C408C4A9A9ECCDBEE /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../app/src/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		216B4B9948C4488F867F3AFA /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../app/src/assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		33A64288B6F44B3C8656B390 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		35DEF00860809B579AAC1B58 /* libPods-boilerplate_app-boilerplate_appTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-boilerplate_app-boilerplate_appTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DEF00860809B579AAC1B58 /* libPods-boilerplate-boilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-boilerplate-boilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A850832AA774BFFA8A20555 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../app/src/assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		4D1546D332B14168BAEA6BFD /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		4D1E7E216C2A4798BB035CBD /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../app/src/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
 		4E2CE1DC8CD44F1789CAE2FA /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		60B7BE173B5A41638339C423 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
-		721965B5C71AAFDAC7303F7D /* Pods-boilerplate_app-boilerplate_appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate_app-boilerplate_appTests.debug.xcconfig"; path = "Target Support Files/Pods-boilerplate_app-boilerplate_appTests/Pods-boilerplate_app-boilerplate_appTests.debug.xcconfig"; sourceTree = "<group>"; };
-		73FFB8935CEBC58681E4E38A /* libPods-boilerplate_app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-boilerplate_app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		748FD87304CBEB130CCB7E1F /* Pods-boilerplate_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate_app.release.xcconfig"; path = "Target Support Files/Pods-boilerplate_app/Pods-boilerplate_app.release.xcconfig"; sourceTree = "<group>"; };
+		721965B5C71AAFDAC7303F7D /* Pods-boilerplate-boilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate-boilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73FFB8935CEBC58681E4E38A /* libPods-boilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-boilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		748FD87304CBEB130CCB7E1F /* Pods-boilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate.release.xcconfig"; path = "Target Support Files/Pods-boilerplate/Pods-boilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		75AEDEDE17634469BEAEC149 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		7912F0E7EF1C4E11B43AF8C6 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		799BE4A3ADCD4E3F9C287CE0 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = boilerplate_app/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = boilerplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C8C72CB97E34CCFA5B10033 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		ABC4516546774719982C9017 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		C135D6741A1B4058853001FC /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		C4AB4E4F8BE496B4717DD9D6 /* Pods-boilerplate_app-boilerplate_appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate_app-boilerplate_appTests.release.xcconfig"; path = "Target Support Files/Pods-boilerplate_app-boilerplate_appTests/Pods-boilerplate_app-boilerplate_appTests.release.xcconfig"; sourceTree = "<group>"; };
+		C4AB4E4F8BE496B4717DD9D6 /* Pods-boilerplate-boilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate-boilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		D53E9D07587C4D0888CFB15B /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		D571E3A324DA471187831F0E /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../app/src/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		DBCDE539754A4F2CA2C84FDC /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		F16725D42658A9020090FF90 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Light.ttf"; path = "../../app/src/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
 		F16725D52658A9020090FF90 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../app/src/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		F16725D62658A9020090FF90 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Thin.ttf"; path = "../../app/src/assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
-		F1FC30C42659B7B0004E85E5 /* boilerplate_app-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "boilerplate_app-Bridging-Header.h"; sourceTree = "<group>"; };
+		F1FC30C42659B7B0004E85E5 /* boilerplate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "boilerplate-Bridging-Header.h"; sourceTree = "<group>"; };
 		F1FC30C52659B7B0004E85E5 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				606DFAD9F0D0212AB7252BFC /* libPods-boilerplate_app-boilerplate_appTests.a in Frameworks */,
+				606DFAD9F0D0212AB7252BFC /* libPods-boilerplate-boilerplateTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,20 +112,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD08B37415501FD52EBD26D8 /* libPods-boilerplate_app.a in Frameworks */,
+				AD08B37415501FD52EBD26D8 /* libPods-boilerplate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* boilerplate_appTests */ = {
+		00E356EF1AD99517003FC87E /* boilerplateTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* boilerplate_appTests.m */,
+				00E356F21AD99517003FC87E /* boilerplateTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = boilerplate_appTests;
+			path = boilerplateTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -136,7 +136,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* boilerplate_app */ = {
+		13B07FAE1A68108700A75B9A /* boilerplate */ = {
 			isa = PBXGroup;
 			children = (
 				F16725C02658A84A0090FF90 /* Fonts */,
@@ -147,15 +147,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = boilerplate_app;
+			name = boilerplate;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				73FFB8935CEBC58681E4E38A /* libPods-boilerplate_app.a */,
-				35DEF00860809B579AAC1B58 /* libPods-boilerplate_app-boilerplate_appTests.a */,
+				73FFB8935CEBC58681E4E38A /* libPods-boilerplate.a */,
+				35DEF00860809B579AAC1B58 /* libPods-boilerplate-boilerplateTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,14 +171,14 @@
 			isa = PBXGroup;
 			children = (
 				F1FC30C52659B7B0004E85E5 /* File.swift */,
-				13B07FAE1A68108700A75B9A /* boilerplate_app */,
+				13B07FAE1A68108700A75B9A /* boilerplate */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* boilerplate_appTests */,
+				00E356EF1AD99517003FC87E /* boilerplateTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				984A8EBAEC10CCC9EFD6E01E /* Pods */,
 				9490F2C992B8453DA09A2D7F /* Resources */,
-				F1FC30C42659B7B0004E85E5 /* boilerplate_app-Bridging-Header.h */,
+				F1FC30C42659B7B0004E85E5 /* boilerplate-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -188,8 +188,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* boilerplate_app.app */,
-				00E356EE1AD99517003FC87E /* boilerplate_appTests.xctest */,
+				13B07F961A680F5B00A75B9A /* boilerplate.app */,
+				00E356EE1AD99517003FC87E /* boilerplateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -226,10 +226,10 @@
 		984A8EBAEC10CCC9EFD6E01E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0244FDA37CE88F16A49697AC /* Pods-boilerplate_app.debug.xcconfig */,
-				748FD87304CBEB130CCB7E1F /* Pods-boilerplate_app.release.xcconfig */,
-				721965B5C71AAFDAC7303F7D /* Pods-boilerplate_app-boilerplate_appTests.debug.xcconfig */,
-				C4AB4E4F8BE496B4717DD9D6 /* Pods-boilerplate_app-boilerplate_appTests.release.xcconfig */,
+				0244FDA37CE88F16A49697AC /* Pods-boilerplate.debug.xcconfig */,
+				748FD87304CBEB130CCB7E1F /* Pods-boilerplate.release.xcconfig */,
+				721965B5C71AAFDAC7303F7D /* Pods-boilerplate-boilerplateTests.debug.xcconfig */,
+				C4AB4E4F8BE496B4717DD9D6 /* Pods-boilerplate-boilerplateTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -266,9 +266,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* boilerplate_appTests */ = {
+		00E356ED1AD99517003FC87E /* boilerplateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "boilerplate_appTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "boilerplateTests" */;
 			buildPhases = (
 				199F9237E36EB601EE86BE5B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -281,14 +281,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = boilerplate_appTests;
-			productName = boilerplate_appTests;
-			productReference = 00E356EE1AD99517003FC87E /* boilerplate_appTests.xctest */;
+			name = boilerplateTests;
+			productName = boilerplateTests;
+			productReference = 00E356EE1AD99517003FC87E /* boilerplateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* boilerplate_app */ = {
+		13B07F861A680F5B00A75B9A /* boilerplate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "boilerplate_app" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "boilerplate" */;
 			buildPhases = (
 				1145D8E87C7F977455B3687E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -302,9 +302,9 @@
 			);
 			dependencies = (
 			);
-			name = boilerplate_app;
-			productName = boilerplate_app;
-			productReference = 13B07F961A680F5B00A75B9A /* boilerplate_app.app */;
+			name = boilerplate;
+			productName = boilerplate;
+			productReference = 13B07F961A680F5B00A75B9A /* boilerplate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -324,7 +324,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "boilerplate_app" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "boilerplate" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -337,8 +337,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* boilerplate_app */,
-				00E356ED1AD99517003FC87E /* boilerplate_appTests */,
+				13B07F861A680F5B00A75B9A /* boilerplate */,
+				00E356ED1AD99517003FC87E /* boilerplateTests */,
 			);
 		};
 /* End PBXProject section */
@@ -398,7 +398,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-boilerplate_app-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-boilerplate-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -420,7 +420,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-boilerplate_app-boilerplate_appTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-boilerplate-boilerplateTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -433,15 +433,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-boilerplate_app-boilerplate_appTests/Pods-boilerplate_app-boilerplate_appTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-boilerplate_app-boilerplate_appTests/Pods-boilerplate_app-boilerplate_appTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-boilerplate_app-boilerplate_appTests/Pods-boilerplate_app-boilerplate_appTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7813B304BA446F3E35CA8EB0 /* [CP] Copy Pods Resources */ = {
@@ -450,15 +450,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-boilerplate_app/Pods-boilerplate_app-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-boilerplate/Pods-boilerplate-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-boilerplate_app/Pods-boilerplate_app-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-boilerplate/Pods-boilerplate-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-boilerplate_app/Pods-boilerplate_app-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-boilerplate/Pods-boilerplate-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -487,7 +487,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* boilerplate_appTests.m in Sources */,
+				00E356F31AD99517003FC87E /* boilerplateTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,7 +506,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* boilerplate_app */;
+			target = 13B07F861A680F5B00A75B9A /* boilerplate */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -514,7 +514,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 721965B5C71AAFDAC7303F7D /* Pods-boilerplate_app-boilerplate_appTests.debug.xcconfig */;
+			baseConfigurationReference = 721965B5C71AAFDAC7303F7D /* Pods-boilerplate-boilerplateTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,7 +522,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = boilerplate_appTests/Info.plist;
+				INFOPLIST_FILE = boilerplateTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -540,18 +540,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boilerplate_app.app/boilerplate_app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boilerplate.app/boilerplate";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4AB4E4F8BE496B4717DD9D6 /* Pods-boilerplate_app-boilerplate_appTests.release.xcconfig */;
+			baseConfigurationReference = C4AB4E4F8BE496B4717DD9D6 /* Pods-boilerplate-boilerplateTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = boilerplate_appTests/Info.plist;
+				INFOPLIST_FILE = boilerplateTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -569,19 +569,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boilerplate_app.app/boilerplate_app";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boilerplate.app/boilerplate";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0244FDA37CE88F16A49697AC /* Pods-boilerplate_app.debug.xcconfig */;
+			baseConfigurationReference = 0244FDA37CE88F16A49697AC /* Pods-boilerplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = boilerplate_app/Info.plist;
+				INFOPLIST_FILE = boilerplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -596,8 +596,8 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = boilerplate_app;
-				SWIFT_OBJC_BRIDGING_HEADER = "boilerplate_app-Bridging-Header.h";
+				PRODUCT_NAME = boilerplate;
+				SWIFT_OBJC_BRIDGING_HEADER = "boilerplate-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -606,12 +606,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 748FD87304CBEB130CCB7E1F /* Pods-boilerplate_app.release.xcconfig */;
+			baseConfigurationReference = 748FD87304CBEB130CCB7E1F /* Pods-boilerplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = boilerplate_app/Info.plist;
+				INFOPLIST_FILE = boilerplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -626,8 +626,8 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = boilerplate_app;
-				SWIFT_OBJC_BRIDGING_HEADER = "boilerplate_app-Bridging-Header.h";
+				PRODUCT_NAME = boilerplate;
+				SWIFT_OBJC_BRIDGING_HEADER = "boilerplate-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -759,7 +759,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "boilerplate_appTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "boilerplateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -768,7 +768,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "boilerplate_app" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "boilerplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -777,7 +777,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "boilerplate_app" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "boilerplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

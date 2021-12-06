@@ -1,4 +1,4 @@
 module.exports = {
-  placeholderName: "boilerplate_app",
+  placeholderName: "boilerplate",
   templateDir: "./template",
 };
